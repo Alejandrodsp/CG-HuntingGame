@@ -1,4 +1,7 @@
 # Jogo de caça com Three.js
+## Jogar online
+
+https://cg-hunting-game-alejandrodsp.vercel.app/
 
 ## Requisitos
 
