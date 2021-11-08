@@ -1,0 +1,39 @@
+<style>
+body {
+    display: block;
+    margin: 0px;
+  }
+  .arma
+{
+	position:fixed;
+	right:0px;
+	width:90%;
+	bottom:-30px;
+	z-index:5;
+}
+.mira
+{
+	position:fixed;
+	bottom:0px;
+	text-align: center;
+}
+.reload{
+	position:fixed;
+	bottom:0px;
+	right:20px;
+	text-align: right;
+	font-size: 50;
+	color: white;
+}
+</style>
+<script>
+	window.onload = function(){
+	document.oncontextmenu = function(){
+	  return false;
+	}
+  }
+</script>  
+<script type="module" src="server/index.js"></script>
+<div class="mira"><img id="miraImg" style="width:100%;" src="img/scopeclosed.png"></div>
+<div class="arma"><img id="armaImg" style="width:100%;" src="img/arma.png"></div>
+<div class="reload" id = "reloadId"></div>
